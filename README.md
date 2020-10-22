@@ -1,6 +1,7 @@
 ## angular-movie-list
  
-``` To run this project follow below steps: 
+### To run this project follow below steps:
+``` 
 1: Install dependencies : npm install
 2: Start JSON-Server : npm i -g json-server
 3: Watch JSON file localhost 3000 :
