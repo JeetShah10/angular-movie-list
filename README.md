@@ -9,3 +9,7 @@
    2) then watch it on localhost : json-server --watch movies.json
 4: Compile and start project : npm run start
  
+Login Information: 1) (admin) Username: admin@gmail.com
+                      Password: admin
+                   2) (user) Username: test
+                      Password: test
