@@ -1,4 +1,4 @@
-## angular-movie-list
+## Angular-Movie-List
  
 ### To run this project follow below steps:
 ``` 
