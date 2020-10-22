@@ -1,0 +1,310 @@
+{
+  "Movies_new": [
+    {
+      "title": "Game of Thrones",
+      "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "id": 6,
+      "comments": [
+        {
+          "comment": "LOTR meets House of Cards. Imagine a fantasy novel if all of the beasts and mythologies were transported to the real world. There's no such thing as a happy ending, or an ending for that matter (unless you're dead). So as you watch the show make predictions, draw conspiracy theories, and watch them blow up in your face. This show is that kind of a ride!"
+        },
+        {
+          "comment": "This series starts off like some of the best out there. Although it makes some minor adjustments, it follows the story from the books quite faithfully for the first 4 seasons. And adds a twinkle of big budget movies, and great cinematography. Truly awesome. Up until this point, I was in love with the series, a 10/10. I quickly read all the books, and re-watched all seasons before a new one would come out."
+        }
+      ],
+      "rating_average": 9.1,
+      "ratings": 4
+    },
+    {
+      "title": "The Vampire Diaries",
+      "description": "The story of two vampire brothers obsessed with the same girl, who bears a striking resemblance to the beautiful but ruthless vampire they knew and loved in 1864.",
+      "id": 5,
+      "rating_average": 8.9,
+      "ratings": 1,
+      "comments": [
+        {
+          "comment": "Nice series to watch."
+        },
+        {
+          "comment": "Teenage vampire soap opera. Probably the worst vampire TV show."
+        }
+      ]
+    },
+    {
+      "title": "Teenage Bounty Hunters",
+      "description": "After joining forces with a veteran bounty hunter, sixteen-year-old fraternal twin sisters Sterling and Blair dive into the world of bail skipping baddies while still navigating the high stakes of teenage love and sex.",
+      "id": 4,
+      "rating_average": "4.56",
+      "ratings": 7,
+      "comments": [
+        {
+          "comment": "Great Soundtrack..."
+        }
+      ]
+    },
+    {
+      "title": "Santana",
+      "description": "Two brothers — one a narcotics agent and the other a general — finally discover the identity of the drug lord who murdered their parents decades ago. They may kill each other before capturing the bad guys.",
+      "id": 1,
+      "rating_average": 5.6,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "Another Clone of X-Men"
+        },
+        {
+          "comment": "Can't stand Ellen Page."
+        }
+      ]
+    },
+    {
+      "title": "The Umbrella Academy",
+      "description": "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.",
+      "id": 2,
+      "rating_average": 8.7,
+      "ratings": 5,
+      "comments": [
+        {
+          "comment": "One time watch"
+        }
+      ]
+    },
+    {
+      "title": "Love, Death & Robots",
+      "description": "Terrifying creatures, wicked surprises and dark comedy converge in this NSFW anthology of animated stories presented by Tim Miller and David Fincher.",
+      "id": 3,
+      "rating_average": 8.3,
+      "ratings": 4,
+      "comments": [
+        {
+          "comment": "Great Horror Anthology"
+        }
+      ]
+    },
+    {
+      "title": "Russian Doll",
+      "description": "Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.",
+      "id": 7,
+      "rating_average": 7.5,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "There is a great temptation, which many succumb to, to not only compare this series to Groundhog Day, but to rate it according to how they believe Russian Doll fared “against” Groundhog Day. Indeed, leading up to watch it, based on the previews, I was thinking in those terms. But I was mistaken to fall into that trap."
+        },
+        {
+          "comment": "We watched one and a half episodes last night, which is about as much as I could bear before cringing and stabbing my eyes out. Not one single character was likeable or possessed any redeeming features. In fact, each was a one dimensional cardboard cut-out. The protagonist was simply irritating and I was hoping that she would just stay dead and not come back, to be honest. It was all just so pretentious, badly executed and not a patch on Groundhog Day, which grabs you from the start and is also very humorous. This is neither humorous or hooks you, at least for me."
+        }
+      ]
+    },
+    {
+      "title": "The Marvelous Mrs. Maisel ",
+      "description": "It’s 1958 Manhattan and Miriam “Midge” Maisel has everything she’s ever wanted - the perfect husband, kids, and Upper West Side apartment. But when her life suddenly takes a turn and Midge must start over, she discovers a previously unknown talent - one that will take her all the way from the comedy clubs of Greenwich Village to a spot on Johnny Carson’s couch.",
+      "id": 8,
+      "rating_average": null,
+      "ratings": 37,
+      "comments": [
+        {
+          "comment": "Liked it."
+        }
+      ]
+    },
+    {
+      "title": "Living with Yourself",
+      "description": "Burned out on life, Miles undergoes a strange procedure at a strip mall spa -- and wakes to find he's been replaced by a better version of himself.",
+      "id": 9,
+      "rating_average": 6.7,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "A great comedy, right? It just needs an off screen shoot up of an elementary school."
+        }
+      ]
+    },
+    {
+      "title": "Undone",
+      "description": "After getting into a near fatal car accident, Alma discovers she has a new relationship with time and uses this ability to find out the truth about her father’s death.",
+      "id": 10,
+      "rating_average": 8,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "The few times I had indulged in one of their efforts had made me increasingly weary. But the surprising surge in quality demonstrated by other recent shows like Homecoming, The Boys and their takeover of The Expanse led me to taking a risk with Undone. An obscure and uniquely interesting looking prospect that, given Amazon's history of handling such material, could have been an absolute disaster. But it's a hidden gem. It's visually, arresting, rotascoped animation style effectively merging the dreamy sureal with the everyday. It's characters and dialogue feel natural."
+        }
+      ]
+    },
+    {
+      "title": "Yeh Meri Family",
+      "description": "Set in the summer of 1998 it is a story about conflicting emotions towards family members from the eyes of a twelve year old.",
+      "id": 11,
+      "rating_average": 7.9,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "Family Movie"
+        }
+      ]
+    },
+    {
+      "title": "Hostel Daze",
+      "description": "Four naive and vulnerable wing-mates (Ankit, Chirag, Jaat, and Jhantoo) develop lasting bonds as they jostle hard to survive the first semester in a hostel. Peppered with absurdities, chutzpahs, clashes and debacles inherent to hostel life, 'Hostel Daze' depicts the grill that every Indian hostel-resident goes through.",
+      "id": 12,
+      "rating_average": 7.3,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "When you know it’s coming from TVF, there is a default setting in me which says it will be worth a watch and rarely they disappoints. The only doubt in my mind was whether the powerhouse of Amazon Prime will interfere in TVF storytelling and fortunately that didn’t happen. Amazing show that gave you the truthful, yet comical life inside the hostel. Loved the show."
+        }
+      ]
+    },
+    {
+      "title": "The Final Call",
+      "description": "The lives of passengers of a flight from Mumbai to Sydney are endangered after the captain decides to commit suicide on board.",
+      "id": 13,
+      "rating_average": 6.3,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "One time watch"
+        }
+      ]
+    },
+    {
+      "title": "Mirzapur",
+      "description": "The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, is an unworthy, power-hungry heir who will stop at nothing to inherit his father's legacy. An incident at a wedding procession forces him to cross paths with Ramakant Pandit, an upstanding lawyer, and his sons, Guddu and Bablu. It snowballs into a game of ambition, power and greed that threatens the fabric of this lawless city.",
+      "id": 14,
+      "rating_average": 9.2,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "The series was excellent, everyone had a unique role. It's like we can't predict who will do what in the next part, it's filled with surprises. My favorite character in the series is bablu, he is smart guy and playes safe in almost any situation, he cared about his brother (guddu) and his dear ones and what munna (akhanda thripati's son) did to sweety and bablu is unforgivable. The actors portraying the villanous characters had also done a great job, the way a boss should be and how they are running there bussines and also controlling things going in mirzapur where all well done.The overall story is great. This is a must watch series if People are intrested in action and suspense, the kills and the gory stuff felt real. As it is an 18+ movie, watch it keeping it in mind about all those contents and gory stuff. Waiting for season 2 to find whats next."
+        }
+      ]
+    },
+    {
+      "title": "Criminal Justice",
+      "description": "Sex, drugs and a gruesome murder. An edgy one night stand turns into a nightmare for Aditya, when he wakes up with blood on his hands. The evidence is stacked against him, but he doesn't remember the grisly crime. Is he guilty or not ?",
+      "id": 15,
+      "rating_average": 8.2,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "Nice series to watch"
+        }
+      ]
+    },
+    {
+      "title": "Dhol",
+      "description": "Four broke and accident-prone men decide to court a rich girl hoping that one of them will marry her and all will live their life in comfort.",
+      "id": 16,
+      "rating_average": 8.6,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "This is one & only comedy movie I like very much. I have seen many time means countless. But I don't understand why Internet Movie Database gives 6.2 rating out of 10. This movie deserve atleast above 8 rating."
+        }
+      ]
+    },
+    {
+      "title": "Asur",
+      "description": "A unique crime thriller that pits two opposing worlds against each other. The less explored, intricate world of forensic science and the deep mysticism of ancient Indian Mythology.",
+      "id": 17,
+      "rating_average": 8.3,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "What a web series Must watch. The blend of Indian mythology with this makes it unique. Just watch it This will blow your mind"
+        }
+      ]
+    },
+    {
+      "title": "Paatal Lok",
+      "description": "A down and out cop lands the case of a lifetime when four suspects are nabbed in the assassination attempt of a prime time journalist. The case turns out to be a devious maze where nothing is what it looks like. The pursuit of it leads him to the dark netherworld - the 'Paatal Lok', and to shocking discoveries in the past of the four suspects.",
+      "id": 18,
+      "rating_average": 8.6,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "A great tv show. Great storytelling & outstanding acting by Chowdry sb and the rest. Depiction of growing intolerance in society & the political class distinctions is done in a crafty fashion. It's has a convincing tone which makes it binge worthy."
+        }
+      ]
+    },
+    {
+      "title": "The Family Man",
+      "description": "The story of a middle-class man who works for a special cell of the National Investigation Agency. While he tries to protect the nation from terrorists, he also has to protect his family from the impact of his secretive, high-pressure, and low paying job.",
+      "id": 19,
+      "rating_average": 7.3,
+      "ratings": 2,
+      "comments": [
+        {
+          "comment": "Great"
+        }
+      ]
+    },
+    {
+      "title": "Special OPS",
+      "description": "The series follows Himmat Singh of Research and Analysis Wing who draws similar patterns in terrorist attacks and is convinced a single person is behind all the attacks. His task force team of five agents living in various parts of the world aim to catch the mastermind. The story is based on an inspiration taken from nineteen years worth of national significant events.",
+      "id": 20,
+      "rating_average": 9.5,
+      "ratings": 20,
+      "comments": [
+        {
+          "comment": "Its a delight for web series lovers, typical drama created by a bunch of underrated actors. The series builds up right from the first episode and makes you excited to watch till the end. Kk Menon has lead the troops very well, even with a average body type he has carried the attitude of a tough and rigid character of a anti terrorist officer."
+        }
+      ]
+    }
+  ],
+  "Users_New": [
+    {
+      "id": 1,
+      "name": "Jeet_admin",
+      "type": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "your_rating": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jeet",
+      "type": "user",
+      "email": "j@gmail.com",
+      "password": "jeetshah",
+      "your_rating": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "test",
+      "type": "user",
+      "email": "test",
+      "password": "test",
+      "your_rating": [
+        1
+      ]
+    }
+  ],
+  "Ratings": [
+    {
+      "id": 1,
+      "movie_id": 2,
+      "user_id": 1,
+      "rating": 9.3,
+      "comment": []
+    },
+    {
+      "id": 2,
+      "movie_id": 7,
+      "user_id": 1,
+      "rating": 9.9,
+      "comment": []
+    },
+    {
+      "movie_id": 4,
+      "user_id": 3,
+      "rating": 9,
+      "id": 3
+    }
+  ]
+}

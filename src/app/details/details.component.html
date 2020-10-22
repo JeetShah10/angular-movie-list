@@ -1,0 +1,80 @@
+<section role="main">
+  <div class="custom_bg">
+    <div class="details-container">
+      <div style="padding: 0;background: transparent;height: calc(100vh - 24px);">
+        <mat-grid-list cols="6" gutterSize="0">
+          <mat-grid-tile class="ml-n5" colspan="3" style="height: calc(100vh - 24px)" gutterSize="0">
+            <mat-card-content class="details-info">
+              <mat-card-title>
+                <h2 class="movie-title">{{movies_new.title}}
+                </h2>
+              </mat-card-title>
+              <mat-card-title>
+                <ul class="movie-actions">
+                  <li class="chart">
+                    <div mat-card-avatar class="outer_ring ml-n4 mb-n4">
+                      <mat-progress-spinner diameter="60" class="ml-n1 mt-n1"
+                        [ngClass]="movies_new.rating_average*10>70 ? 'high-rate' : 'low-rate'" mode="determinate"
+                        [value]="movies_new.rating_average*10">
+                      </mat-progress-spinner>
+                      <div class="circle-content">
+                        <small>{{ toFloat(movies_new.rating_average) }}<sup>%</sup></small>
+                      </div>
+                    </div>
+                    <div class="text mr-n3 mb-n3">User<br />Score</div>
+                  </li>
+
+                </ul>
+              </mat-card-title>
+              <h3>Overview</h3>
+              <div class="overview">
+                <p style="text-align:justify;">
+                  {{movies_new.description}}
+                </p>
+              </div>
+            </mat-card-content>
+          </mat-grid-tile>
+          <mat-grid-tile class="ml-5" colspan="3" style="height: calc(100vh - 24px)">
+            <mat-card-content class="details-info">
+              <div *ngIf="flag!=false" style="text-align:center">
+                <h1>
+                  Rating
+                </h1>
+                <div *ngIf="flagRate==false; then thenBlock else elseBlock"></div>
+                <ng-template #thenBlock>
+                  <star-rating value="0" totalstars="10" checkedcolor="yellow"
+                    uncheckedcolor="black" size="24px" readonly="false" (rate)="onRateChange($event)"></star-rating>
+                </ng-template>
+                <ng-template #elseBlock>
+                  <star-rating value="{{ratings[0].rating}}" totalstars="10" checkedcolor="yellow" uncheckedcolor="black" size="24px"
+                    readonly="false" (rate)="onRateChange($event)"></star-rating>
+                </ng-template>
+              </div>
+
+              <h3>Comments</h3>
+              <div class="comments" *ngFor="let comment of movies_new.comments let i=index">
+                <p style="text-align: justify;">
+                  {{i+1}})&nbsp;
+                  {{comment.comment}}
+                </p>
+              </div>
+              <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+
+                <div class="form-group">
+                  <label for="comment">Write Comment</label>
+                  <input type="text" name="comment" ngModel required #username="ngModel" class="form-control"
+                    id="comment" placeholder="Enter Your Comments">
+                </div>
+                <button *ngIf="flag==true else loginTemplate" type="submit" [disabled]="f.invalid"
+                  class="btn btn-primary">Submit<i class="fas fa-sign-in-alt"></i></button>
+                <ng-template #loginTemplate>
+                  <div>Please <a mat-button routerLink="/login">Login</a> to your account to comment</div>
+                </ng-template>
+              </form>
+            </mat-card-content>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+    </div>
+  </div>
+</section>

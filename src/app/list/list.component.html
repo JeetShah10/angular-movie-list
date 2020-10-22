@@ -1,0 +1,66 @@
+<div class = "custom_bg"  style="padding: 0;background: transparent;">
+<section class="content" role="main">
+  <mat-form-field appearance="outline" class="search-box">
+    <mat-label>Search for a movie</mat-label>
+    <input matInput class="form-control" type="text" name="title" [(ngModel)]="title"
+      (ngModelChange)="getSearchMovies()" placeholder="Enter movie name...">
+    <mat-icon matSuffix>youtube_searched_for</mat-icon>
+  </mat-form-field>
+  <div style="padding-bottom:10px">
+    <th><b>Sort by Rating&nbsp;</b> <i (click)="sort_by_rating()" class="fa fa-sort fa-1x"></i></th>
+  </div>
+
+  <div class="container">
+    <mat-card *ngFor="let movie_new of movies_new" style="padding: 0; height: 280px">
+      <mat-grid-list cols="5" rowHeight="280px" class="fade-in">
+        <mat-grid-tile colspan="5">
+          <mat-card-content style="top:0; position: absolute; padding: 10px">
+            <mat-card-header>
+              <div mat-card-avatar class="outer_ring">
+                <mat-progress-spinner diameter="45" class="ml-n1 mt-n1"
+                  [ngClass]="movie_new.rating_average*10>70 ? 'high-rate' : 'low-rate'" mode="determinate"
+                  [value]="movie_new.rating_average*10">
+                </mat-progress-spinner>
+                <div class="circle-content" style="width: 40px;height:65px;">
+                  <small *ngIf=" movie_new.rating_average>0">{{ toFloat(movies_new.rating_average) }}<sup>%</sup></small>
+                  <h4 *ngIf=" movie_new.rating_average<=0">NR</h4>
+                </div>
+              </div>
+              <mat-card-title>
+                <a mat-button routerLink="/movie-details/{{movie_new.id}}" class="movie-title">{{movie_new.title}}</a>
+              </mat-card-title>
+            </mat-card-header>
+            <div class="description">
+              {{movie_new.description}}
+            </div>
+          </mat-card-content>
+          <div class="more-info row">
+            <div class="col-sm-3 mr-4">
+              <a mat-button routerLink="/movie-details/{{movie_new.id}}" class="btn btn-small btn-info" href="#">
+                <i class="icon-info-sign"></i> More info</a>
+            </div>
+            <div class="col-sm-3 mr-3">
+              <a *ngIf="flag==true" style="color: chocolate" mat-button
+                routerLink="/update-details/{{movie_new.id}}" class="btn" href="#">
+                <i class="icon-repeat"></i> Update Details</a>
+            </div>
+            <div class="col-sm-3 ml-5">
+              <a *ngIf="flag==true" mat-button (click)="deleteMovies(movie_new.id)"
+                class="btn btn-danger" href="#">
+                <i class="icon-trash icon-large"></i> Delete</a>
+            </div>
+          </div>
+
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
+    <mat-card *ngIf="noResult">
+      <mat-card-content>
+        <mat-card-header>
+          <h2>No movies found...</h2>
+        </mat-card-header>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</section>
+</div>

@@ -1,0 +1,10 @@
+<div class="toolbar" role="banner">
+  <a class="home-icon icon-outline" mat-button routerLink="/">
+    <mat-icon aria-hidden="false" aria-label="Home">movie_filter</mat-icon>
+  </a>
+  <span>The Movie Database</span>
+  <div class="spacer"></div>
+  <a *ngIf="flag==false" [routerLink]="['/login']">Login</a>
+  <a *ngIf="flag==true" class="nav-item nav-link" (click)="logout()">Logout</a>
+  <a *ngIf="flagType==true" class="ml-3" [routerLink]="['/addmovie']">Add Movie</a>
+</div>
