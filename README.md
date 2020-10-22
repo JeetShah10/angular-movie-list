@@ -7,5 +7,5 @@
 3: Watch JSON file localhost 3000 :
    1) go into data folder which has json file movies.json : cd ./src/app/data
    2) then watch it on localhost : json-server --watch movies.json
-4: Compile and start project : npm run start ```
+4: Compile and start project : npm run start
  
